@@ -15,6 +15,12 @@ Bem-vindo ao "Jogo dos Números Secretos"! Este é um projeto simples desenvolvi
 - **Feedback de Adivinhação:** Receba feedback se o seu palpite é maior ou menor que o número secreto.
 - **Controle de Tentativas:** Acompanhe o número de tentativas para descobrir o número secreto.
 - **Novo Jogo:** Reinicie o jogo a qualquer momento clicando no botão "Novo Jogo".
+- **Leitura de Voz:** Desfrute da experiência auditiva com a leitura de voz utilizando o ResponsiveVoice.
+  
+## Dependências
+
+- [ResponsiveVoice](https://responsivevoice.org/) - Biblioteca utilizada para a leitura de voz.
+
 
 ## Estrutura do Projeto
 
