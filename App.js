@@ -52,6 +52,7 @@ function verificarChute() {
 
     let mensagensTentativas = `Você descobriu o número secreto com ${tentativas} ${paralavraTentativa}!`;
 
+    // Adicionando a chamada para ler o texto
     responsiveVoice.speak(exibirTextoTela("p", mensagensTentativas), "Brazilian Portuguese Female", {
       rate: 1.2,
     });
