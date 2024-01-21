@@ -13,13 +13,8 @@ Bem-vindo ao "Jogo dos Números Secretos"! Este é um projeto simples desenvolvi
 
 - **Geração Aleatória de Números:** O número secreto é gerado aleatoriamente entre 1 e 100.
 - **Feedback de Adivinhação:** Receba feedback se o seu palpite é maior ou menor que o número secreto.
-- **Leitura de Voz:** Desfrute da experiência auditiva com a leitura de voz utilizando o ResponsiveVoice.
 - **Controle de Tentativas:** Acompanhe o número de tentativas para descobrir o número secreto.
 - **Novo Jogo:** Reinicie o jogo a qualquer momento clicando no botão "Novo Jogo".
-
-## Dependências
-
-- [ResponsiveVoice](https://responsivevoice.org/) - Biblioteca utilizada para a leitura de voz.
 
 ## Estrutura do Projeto
 
