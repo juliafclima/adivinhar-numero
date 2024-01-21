@@ -6,6 +6,7 @@ let tentativas = 1;
 function exibirTextoTela(tag, texto) {
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
+  responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.2 });
 }
 
 function exibirMensagemInicial() {
@@ -51,8 +52,13 @@ function verificarChute() {
 
     let mensagensTentativas = `Você descobriu o número secreto com ${tentativas} ${paralavraTentativa}!`;
 
-    exibirTextoTela("p", mensagensTentativas);
-
+    responsiveVoice.speak(
+      exibirTextoTela("p", mensagensTentativas),
+      "Brazilian Portuguese Female",
+      {
+        rate: 1.2,
+      }
+    );
     document.getElementById("reiniciar").removeAttribute("disabled");
     document.getElementById("chutar").setAttribute("disabled", "");
   } else {
